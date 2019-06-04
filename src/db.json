@@ -1,9 +1,34 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "reclamos": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "description": "typicode",
+      "author": "example@mail.com"
+    },
+    {
+      "title": "ejemplo",
+      "description": "ejemplo",
+      "author": "example@mail.com",
+      "id": 2
+    },
+    {
+      "title": "ejemplo update",
+      "description": "ejemplo update ",
+      "author": "example@mail.com",
+      "id": 3
+    },
+    {
+      "title": "ejemplo 4",
+      "description": "ejemplo 5 ",
+      "author": "example@mail.com",
+      "id": 4
+    },
+    {
+      "title": "ejemplo 5",
+      "description": "ejemplo 5 ",
+      "author": "example@mail.com",
+      "id": 5
+    }
+  ]
 }

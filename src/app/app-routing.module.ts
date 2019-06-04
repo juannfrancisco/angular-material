@@ -8,9 +8,13 @@ import { PostViewComponent } from './componentes/post-view/post-view.component';
 const routes: Routes = [
   {path:"", component:HomeComponent},
   {path:"login", component:LoginComponent},
-  {path:"home", component:HomeComponent},
-  {path:"post", component:PostComponent},
-  {path:"post/:id", component:PostViewComponent}
+  {path:"app/logged", component:HomeComponent,
+    children:[
+      {path:"post", component:PostComponent },
+      {path:"post/:id", component:PostViewComponent}
+  ]},
+
+  
 ];
 
 @NgModule({
